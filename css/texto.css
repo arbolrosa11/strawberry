@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+div{}
+	
+	.imagen_fondo{
+		background-image: url("../fotos/acuarela.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	
+	}
+	
+.centrar{
+	text-align:center;
+	z-index: 30;
+			animation-name: fradeIn;
+			animation-duration: 7s;
+}
+
+.izquierda{
+    position: absolute;
+    right: 0px;
+			animation-name: fradeIn;
+			animation-duration: 7s;
+	
+	
+}
+
+.derecha{
+	position: absolute;
+	left: 0px;
+			animation-name: fradeIn;
+			animation-duration: 7s;
+}
+	.texto{
+		text-align: center;
+	}
+
+
+
+
+	
+		p[class="uno"]{
+		font-family: 'Homemade Apple', cursive;
+		color: #000000;
+		font-size: 85px;
+		
+	}
+
+			p[class="seis"]{
+		font-family: 'Parisienne', cursive;
+		color: #000000;
+		font-size: 85px;
+		
+	}
+	
+		p[class="dos"]{
+		font-family: 'Homemade Apple', cursive;
+		color: #2E0000;
+		font-size: 85px;
+		
+	}
+
+		p[class="tres"]{
+		font-family: 'Merienda', cursive;
+		color: #000000;
+		font-size: 65px;
+		
+	}
+
+		p[class="cuatro"]{
+		font-family: 'Sriracha', cursive;
+		color: #2E0000;
+		font-size: 110px;
+		
+	}
+
+		p[class="cinco"]{
+		font-family:  'Mali', cursive;
+		color: #000000;
+		font-size: 65px;
+		
+	}
+
+
+#main-container{
+	padding-top: 200px;
+	text-align: center;
+}
+
+
+
+
+.btn-green{
+	color:#000000;
+	background-color: #EFD4D4;
+	font-family: 'Mali', cursive;
+	font-size:16px;
+
+}
+
+.btn-green:hover{
+	background-color: #EFD4D4;
+}
+
+.btn-green:active{
+	background-color: #EFD4D4;
+}
+
+
+.contenedor{
+	min-height:100px ;
+	display: flex;
+	justify-content: center;
+	aling-items:center;
+	
+	
+}
+
+.botton{
+	display: flex;
+	flex-direction: column;
+}
+	
+
+.btn{
+	text-decoration: none;
+	padding: 20px 50px;
+	border-ridus:3px;
+	display:inline-block;
+	text-align: center;
+	font-family:  'Mali', cursive;
+	font-size:45px;
+}
+
+.btn-1{
+	color:#000000;
+	background-color: #EFD4D4;
+	border:5px solid #000000;
+	border-radius: 60px;
+
+}
+
+.btn-1:hover{
+	background-color: #EFD4D4;
+}
+
+.btn-1:active{
+	background-color: #EFD4D4;
+}
+
+
+
+.lista{
+	margin-bottom: 50px;
+	color:#000000;
+	background-color: #EFD4D4;
+	border:5px solid #000000;
+	border-radius: 60px;
+	padding: 20px 230px;
+	border-ridus:3px;
+	font-family: 'Mali', cursive;
+	font-size:45px;
+	
+}
+

@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:url("file:///C:/Users/myria/Desktop/noemiluis/acuarela.jpg");
+		background-repeat: repeat;
+}
+
+
+
+.iglesia{
+	width: 100 px;
+	height: 100 px;
+	position: relative;
+
+
+}
+
+.iglesia img {
+	width: 100%;
+	height:100%;
+}
+
+.iglesia p {
+    font-size: 50px;
+    position: absolute;
+    top: 200px;
+    left: 277px;
+    transform: translate(-20%, -70%);
+}
+
+
+.marco{
+	width: 1000 px;
+	height: 1000 px;
+	position: relative;
+
+
+}
+
+.marco img {
+	width: 100%;
+	height:100%;
+}
+
+.marco p {
+  
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    transform: translate(-20%, -70%);
+}
+
+
+
+
+
+form{
+	width:75%;
+	border:30px;
+	margin:60px;
+	padding:60px;
+	border-radius:50px;
+	font-family:  'Mali', cursive;
+	font-size:40px;
+
+	
+}
+
+
+textarea{
+	margin-bottom: 50px;
+	width: 97%;
+	pandding:50px;
+	webkit-box-sizing:
+	border-box;
+	moz-box-sizing:
+	border-box;
+	box-sizing: border-box;
+	border:5px solid #000000;
+	border-radius: 60px;
+	font-family:  'Mali', cursive;
+	font-size:50px;
+	resize:
+	vertical;
+	max-height: 200px;
+	min-height: 200px;
+	max-width: 700px;
+	min-width: 700px;
+}
+
+input,extarea{
+	
+	font-family:  'Mali', cursive;
+	font-size:16px;
+	margin-bottom: 50px;
+	width: 97%;
+	pandding:50px;
+	webkit-box-sizing:border-box;
+	moz-box-sizing:border-box;
+	box-sizing: border-box;
+	border:5px solid #000000;
+	border-radius: 40px;
+	
+	
+	
+	max-height: 100px;
+	min-height: 100px;
+	max-width: 700px;
+	min-width: 700px;
+	
+}
+
+
+	
+
+input[type="sudmit"]{
+	margin-bottom: 0px;
+	background:#1668C4;
+	color:#fff;
+	border:none;
+}
+
+
+input[type="sudmit"]:hover{
+	background: #1668C4;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family:  'Mali', cursive;
+	color: #000000;
+	font-size:50px;
+	background-color:#FFFFFF;
+}
+
+.container{
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+
+input[type="radio"]{
+	display:none;
+}
+
+label{
+	display: block;
+	cursor: pointer;
+	font-weight: 500;
+	margin-bottom: 30px;
+	
+}
+
+
+label span{
+	display: inline-flex;
+	align-items: center;
+	padding: 10px 20px 10px 20px;
+	border-radius: 31px;
+	transition: .25 ease;
+	font-family:  'Mali', cursive;
+	font-size: 50px;
+}
+
+label span:hover
+input[type="radio"]:checked + span{
+	background-color: #570401;
+}
+
+label span:before{
+	content: "";
+	background-color: #FFFFFF;
+	width: 42px;
+	height: 42px;
+	border-radius: 200%;
+	margin-right: 10px;
+	transition: .25s ease;
+	box-shadow: inset 0 0 0 2px #000000;
+}
+
+
+input[type="radio"]:checked + span:before{
+	box-shadow: inset 0 0 0 10px #570401;
+}
+
+
+
+
+
+
